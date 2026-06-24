@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "afa"
+version = "0.1.0"
+description = "active feature acquisition"
+authors = ["Armin Saadat <armin2saadat@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.13"
+torch = "2.8.0"
+torchvision = "0.23.0"
+torchmetrics = "1.8.2"
+numpy = "2.3.3"
+attributedict = "0.3.0"
+colorlog = "6.8.2"
+gymnasium = "0.29.1"
+matplotlib = "3.8.4"
+pandas = "2.3.3"
+PyYAML = "6.0.1"
+scikit-learn = "1.7.2"
+seaborn = "0.13.2"
+tqdm = "4.66.2"
+wandb = "0.22.2"
+timm = "1.0.13"
+einops = "0.8.1"
+rclstream = {git = "ssh://git@github.com/DeepRCL/rclstream.git", rev = "aws/echoprime"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

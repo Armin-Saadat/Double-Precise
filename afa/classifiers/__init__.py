@@ -1,0 +1,3 @@
+from afa.classifiers.proto_as_sim_former import ProtoASSimFormer
+from afa.classifiers.proto_as_ef_sim_former import ProtoASEFSimFormer
+from afa.classifiers.confident_multi_former import ConfidentMultiFormer
