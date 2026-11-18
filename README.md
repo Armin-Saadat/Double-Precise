@@ -74,7 +74,6 @@ Nodes show partial-view states, patient counts, stopping points, and AS/LVEF bal
 ### Requirements
 
 - **Python 3.11.13**, as pinned in `pyproject.toml`, and Poetry.
-- Authorized access to the private **`DeepRCL/rclstream`** dependency over SSH.
 - Prepared study data and diagnostic-model checkpoints. The private clinical dataset and required pretrained checkpoints are not supplied by these setup commands.
 
 ```bash
