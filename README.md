@@ -38,7 +38,7 @@ The system jointly estimates **aortic stenosis (AS) severity** and **left ventri
 
 ## How it works
 
-<p align="center"><img src="docs/assets/acquisition-loop.png" width="100%" alt="Active acquisition loop: echo videos pass through a video encoder into a probabilistic diagnostic module and a video selector, which chooses the next view or terminates acquisition."></p>
+<p align="center"><img src="docs/assets/acquisition-loop.png" width="100%" alt="Active acquisition loop showing the initial, intermediate, and final joint AS/LVEF diagnostic distributions, with a termination action."></p>
 
 1. **Encode the acquired views.** A frozen EchoPrime video encoder extracts features from available clips; unobserved views remain masked.
 2. **Update the joint prediction.** A task-aware Transformer fuses the observed views to estimate AS severity and LVEF probabilistically.

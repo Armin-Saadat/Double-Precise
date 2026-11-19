@@ -4,7 +4,7 @@ These assets were extracted from the project authors' supplied `presentation_4mi
 
 | Asset | Source in the supplied presentations | Processing |
 | --- | --- | --- |
-| `acquisition-loop.png` | Seven-minute deck, slide 7, “Active video acquisition” | Rendered slide; cropped top border and bottom margin, preserving the diagram and title |
+| `acquisition-loop.png` | Seven-minute deck, slide 7, “Active video acquisition” | Rendered with the final diagnostic distribution revealed from the slide animation; retained the embedding placeholders and cropped the top border and bottom margin |
 | `performance.png` | Seven-minute deck, `ppt/media/image55.png` | Lossless PNG re-encoding |
 | `decision-pathways.png` | Seven-minute deck, `ppt/media/image61.png`; also four-minute deck, `ppt/media/image37.png` | Lossless PNG re-encoding |
 | `ap4.gif` | Seven-minute `image23.gif`; four-minute `image23.gif` | Resized, padded, palette reduced; every third frame retained with accumulated timing |
